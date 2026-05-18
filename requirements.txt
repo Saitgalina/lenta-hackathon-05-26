@@ -1,0 +1,18 @@
+# Детектор + инференс
+ultralytics==8.4.51
+onnxruntime-gpu==1.26.0   # GPU; замени на onnxruntime==1.26.0 если нет CUDA
+
+# Сервис
+streamlit==1.57.0
+pyzbar                    # также нужна нативная zbar: conda install -c conda-forge zbar
+
+# Обработка данных
+opencv-python-headless==4.12.0.88
+numpy==1.26.4
+pandas==3.0.3
+pillow==12.2.0
+tqdm==4.67.1
+matplotlib==3.10.9
+
+# PyTorch (CUDA 12.8) — ставится отдельно:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128

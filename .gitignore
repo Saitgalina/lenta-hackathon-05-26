@@ -1,0 +1,33 @@
+# Данные (видео, разметка, кропы)
+data/
+
+# Артефакты обучения
+notebooks/runs/
+models/
+
+# Модели (бинарные веса) — положи best.onnx в папку models/
+*.onnx
+*.pt
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Временные файлы
+*.log
+*.tmp
