@@ -13,7 +13,7 @@ from ultralytics import YOLO
 from pyzbar.pyzbar import decode as pyzbar_decode
 
 ROOT       = Path(__file__).parent.parent
-MODEL_PATH = ROOT / "notebooks" / "runs" / "models" / "detector" / "yolov8s_price_tags" / "weights" / "best.onnx"
+MODEL_PATH = ROOT / "models" / "best.onnx"
 IMGSZ      = 1280
 
 
