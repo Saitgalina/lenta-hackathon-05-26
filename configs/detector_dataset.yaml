@@ -1,0 +1,7 @@
+names:
+- price_tag
+nc: 1
+path: C:\Users\vsaitgalina\PycharmProjects\VilenaProject\data\annotated\split
+test: test/images
+train: train/images
+val: val/images
