@@ -4,7 +4,6 @@ onnxruntime-gpu==1.26.0   # GPU; замени на onnxruntime==1.26.0 если 
 
 # Сервис
 streamlit==1.57.0
-pyzbar                    # также нужна нативная zbar: conda install -c conda-forge zbar
 
 # Обработка данных
 opencv-python-headless==4.12.0.88
