@@ -8,7 +8,7 @@ boxmot
 
 # Обработка данных
 opencv-python-headless==4.12.0.88
-numpy==1.26.4
+numpy
 pandas==3.0.3
 pillow==12.2.0
 tqdm==4.67.1
